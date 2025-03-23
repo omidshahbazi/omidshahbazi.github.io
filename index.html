@@ -44,6 +44,22 @@
       font-size: 0.9rem;
       color: #007bff;
     }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .image-grid img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .image-caption {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 0.3rem;
+    }
   </style>
 </head>
 <body>
@@ -96,6 +112,14 @@
       <li><strong>DOD Playground</strong> - <a class="project-link" href="https://github.com/omidshahbazi/DODSample">Repository</a></li>
       <li><strong>Desert Strike 3D</strong> - <a class="project-link" href="https://github.com/omidshahbazi/DesertStrike3D">Repository</a></li>
     </ul>
+
+    <h2>Image Showcase</h2>
+    <div class="image-grid">
+      <div>
+        <img src="https://github.com/omidshahbazi/omidshahbazi.github.io/blob/master/Materials/PBR/LightingOnly.png" alt="Lighting Only">
+        <div class="image-caption">Lighting Only - PBR Playground</div>
+      </div>
+    </div>
 
     <h2>Education</h2>
     <p>BSc. in Computer Science, Azad University (2009 – 2013)</p>
